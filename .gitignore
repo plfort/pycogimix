@@ -1,2 +1,5 @@
 /cogimix.log
 /cogimix.conf
+/*.pyc
+/.project
+/.pydevproject
