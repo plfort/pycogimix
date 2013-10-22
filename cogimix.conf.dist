@@ -1,0 +1,15 @@
+server_port = 8000
+db_file = 'cogimix.db' #Database file
+log_level = 'warning'
+log_file = 'cogimix.log' #Path or None
+music_folders = [{'path' : 'path/to/yout/music/folder','recursive': True},
+				 {'path' : 'another/path/to/yout/music/folder','recursive': True},
+                 ]
+                 
+userpassdict = {'username' : 'password'}
+auth_config = {'digest': 
+                    { "realm" : "cogimix", "key": "YourSecretKey"} ,
+               'basic' : 
+                    { "realm" : "cogimix"}
+              }
+auth_mode = 'digest'
